@@ -20,7 +20,7 @@ Then clamp the CT sensors on the appliances you want to monitor :
 
 https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/installation
 
-*REMEMBER TO SWITCH OFF YOUR MAIN POWER WHEN WORKING AROUND UNPROTECTED POWER CABLES*
+**REMEMBER TO SWITCH OFF YOUR MAIN POWER WHEN WORKING AROUND UNPROTECTED POWER CABLES**
 
 You can also connect few 1-wire sensors to the emonTx shield.
 If you're interested in humidity sensors, have a look at the [DS2438 + HIH4000](onewire/) module.
@@ -32,6 +32,7 @@ Simply adjust the variable `CT_COUNT` to the number of CT sensors in your setup.
 
 An accurate measurement will require proper calibration to fit your setup and electrical charateristics.
 Please refer to the official documentation to apply the calibration procedure properly : https://learn.openenergymonitor.org/electricity-monitoring/ctac/calibration
+
 The values you need to tune are in the function `initializeCT()`.
 
 ## Compilation

@@ -9,12 +9,14 @@ This module is a temperature and humidity sensors on 1-wire bus. It uses an Hone
 
 ## Component list
 
-|C1|10µF capacitor|
-|C2|0.01µF capacitor|
-|D1|Schottky diode BAT54S|
-|IC1|Honeywell HIH-4000|
-|IC2|DS2438|
-|R1|100kΩ resistor|
+|Name|Type|
+|----|----|
+|C1  |10µF capacitor|
+|C2  |0.01µF capacitor|
+|D1  |Schottky diode BAT54S|
+|IC1 |Honeywell HIH-4000|
+|IC2 |DS2438|
+|R1  |100kΩ resistor|
 
 ## Power
 
